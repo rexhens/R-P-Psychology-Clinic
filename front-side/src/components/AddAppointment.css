@@ -1,0 +1,71 @@
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="text"],
+input[type="number"],
+select {
+    background-color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+select {
+    background-color: white;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    /* Add border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add subtle shadow */
+    background-color: #ffffff;
+    /* Set a background color */
+    margin-top:7%;
+}
