@@ -1,23 +1,23 @@
 [
   {
     "Id": 1,
-    "Name": "qwd",
-    "Surname": "ads",
-    "Adress": "aads",
-    "FirstComplain": "ad"
+    "Name": "Client1",
+    "Surname": "Surname1",
+    "Adress": "Adress 1",
+    "FirstComplain": "First compaint"
   },
   {
     "Id": 2,
-    "Name": "test",
-    "Surname": "asf",
-    "Adress": "ads",
-    "FirstComplain": "asd"
+    "Name": "Client2",
+    "Surname": "Surname2",
+    "Adress": "Adress 2",
+    "FirstComplain": "First compaint"
   },
   {
     "Id": 3,
-    "Name": "test1",
-    "Surname": "asfqwd",
-    "Adress": "ads",
-    "FirstComplain": "asd"
+    "Name": "Client3",
+    "Surname": "Surname3",
+    "Adress": "Adress 3",
+    "FirstComplain": "First compaint"
   }
 ]

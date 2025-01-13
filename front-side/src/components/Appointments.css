@@ -1,0 +1,7 @@
+.detailsBtn{
+        background-color: #6c5c5c;
+        border: #6c5c5c;
+}
+.detailsBtn:hover{
+        background-color: #989898;
+}

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import './Appointments.css'
 
 export default function Appointments() {
   const [appointments, setAppointments] = useState([]);
@@ -82,8 +83,8 @@ return (
                     <span className="fw-semibold">Client:</span>{" "}
                     {app.client.name} {app.client.surname}
                   </p>
-                  <a href="#" className="btn btn-primary btn-sm">
-                    Go somewhere
+                  <a href="#" className="btn btn-primary btn-sm detailsBtn">
+                   Details
                   </a>
                 </div>
               </div>

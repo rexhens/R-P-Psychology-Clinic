@@ -52,5 +52,14 @@
     "Amount": 100,
     "Status": "Unpaid",
     "Client": null
+  },
+  {
+    "Id": 7,
+    "ClientId": 3,
+    "DateReserved": "2025-01-13T10:00:00Z",
+    "AppointemtType": "Therapu",
+    "Amount": 100,
+    "Status": "Unpaid",
+    "Client": null
   }
 ]

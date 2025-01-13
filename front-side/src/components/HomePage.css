@@ -1,0 +1,23 @@
+#detailsBtn, #deleteBtn{
+    margin-left: 40px;
+    background-color: #6c5c5c;
+    
+}
+#detailsBtn:hover {
+    background-color: #989898;
+}
+
+#deleteBtn:hover {
+    background-color: #989898;
+}
+#addAppBtn{
+    padding: 15px;
+    background-color: #6c5c5c;
+    border-radius: 10px;
+    color: white;
+  
+}
+#addAppBtn:hover{
+    background-color: #989898;
+    color: white;
+}

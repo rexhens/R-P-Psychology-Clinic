@@ -12,7 +12,7 @@
       margin: 0;
       font-family: Arial, sans-serif;
     }
-  
+
     .navbar {
       display: flex;
       justify-content: space-between;
@@ -21,15 +21,40 @@
       background-color: #f8f9fa;
       border-bottom: 1px solid #ddd;
     }
-  
-    .navbar-text {
+
+    .navbar-left {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      /* Adds space between the brand and links */
+    }
+
+    .navbar-brand {
       font-size: 20px;
       font-weight: bold;
       color: #333;
+      text-decoration: none;
     }
-  
+
+    .navbar-links {
+      display: flex;
+      gap: 20px;
+      /* Adds space between the links */
+    }
+
+    .navbar-links a {
+      color: #333;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .navbar-links a:hover {
+      text-decoration: none;
+       color: #333;
+    }
+
     .login-button {
-      background-color: #6c5c5c;;
+      background-color: #6c5c5c;
       color: white;
       border: none;
       padding: 8px 15px;
@@ -37,21 +62,27 @@
       cursor: pointer;
       text-decoration: none;
     }
-  
+
     .login-button:hover {
-      background-color: #6c5c5c;;
-    }
-    a{
-      color: #333;
+      background-color: #5a4b4b;
     }
   </style>
 </head>
 
 <body>
-    <nav class="navbar">
-      <div class="navbar-text"><a href="/homescreen">Psychology Clinic</a></div>
-      <a href="/login" class="login-button" style="color: #333;">Login</a>
-    </nav>
+  <nav class="navbar">
+    <!-- Left-aligned section -->
+    <div class="navbar-left">
+      <a href="/homescreen" class="navbar-brand">Psychology Clinic</a>
+      <div class="navbar-links">
+          <a href="/homepage">Home</a>
+        <a href="/appointments">Appointments</a>
+        <a href="/clients">Clients</a>
+      </div>
+    </div>
+    <!-- Right-aligned login button -->
+    <a href="/login" class="login-button">Login</a>
+  </nav>
   <div id="root"></div>
   <script type="module" src="/src/index.jsx"></script>
 </body>

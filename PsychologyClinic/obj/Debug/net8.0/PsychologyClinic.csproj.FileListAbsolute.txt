@@ -62,3 +62,4 @@ C:\Users\User\OneDrive\Desktop\Projects\CSharp Projects\PsychologyClinicProject\
 C:\Users\User\OneDrive\Desktop\Projects\CSharp Projects\PsychologyClinicProject\PsychologyClinic\obj\Debug\net8.0\PsychologyClinic.pdb
 C:\Users\User\OneDrive\Desktop\Projects\CSharp Projects\PsychologyClinicProject\PsychologyClinic\obj\Debug\net8.0\PsychologyClinic.genruntimeconfig.cache
 C:\Users\User\OneDrive\Desktop\Projects\CSharp Projects\PsychologyClinicProject\PsychologyClinic\obj\Debug\net8.0\ref\PsychologyClinic.dll
+C:\Users\User\OneDrive\Desktop\Projects\CSharp Projects\PsychologyClinicProject\PsychologyClinic\obj\Debug\net8.0\PsychologyClinic.sourcelink.json

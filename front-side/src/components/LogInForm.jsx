@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import '../App.css';
-import '../index.css';
 import { useNavigate } from 'react-router-dom';
+import './LogInForm.css'
 
 function LoginForm() {
   const [formData, setFormData] = useState({
@@ -70,7 +69,7 @@ function LoginForm() {
             onChange={handleInputChange}
           />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" id='submitBtn'>Submit</button>
       </form>
     </div>
   );

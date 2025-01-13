@@ -103,7 +103,6 @@ label {
 input {
   font-size: 1.2em;
   padding: 0.5rem;
-  background-color: #e1dfdf;
   border: none;
   border-radius: 5px;
   color: #fff;
@@ -111,7 +110,7 @@ input {
   /* Make the input take up remaining space */
 }
 #big-container{
-  background-color: #a2a3ad;
+  background-color: #e5e5e6;
  padding-left: 10rem;
   padding-right: 10rem;
   padding-top: 2rem;

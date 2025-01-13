@@ -153,8 +153,9 @@ fetch("https://localhost:7175/api/appointments/add", {
           />
         </div>
 
-        <button type="submit" className="btn btn-primary">Submit</button>
+        <button type="submit" className="btn btn-primary" id="submitBtn">Submit</button>
       </form>
+      <a href="/homepage" id="backBtn">Back</a>
     </div>
   );
 }

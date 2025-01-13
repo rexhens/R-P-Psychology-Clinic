@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Appointments from "./Appointments";
 import AddAppointment from "./AddAppointment";
+import './HomePage.css'
 
 export default function HomePage() {
   const [clients, setClients] = useState([]);
@@ -93,7 +94,7 @@ export default function HomePage() {
 
   return (
     <div>
-      <AddAppointment></AddAppointment>
+     <a href="/add" id="addAppBtn">Add a new Appointment</a>
     <Appointments></Appointments>
       <h1>Clients</h1>
 
@@ -123,8 +124,9 @@ export default function HomePage() {
               <td style={styles.td}>{client.surname}</td>
               <td style={styles.td}>{client.firstComplain}</td>
               <td style={styles.td}>{client.adress}</td>
-              <td style={styles.td}>
+              <td style={styles.td} id="buttonsCol">
                 <button
+                  id="deleteBtn"
                   onClick={() => handleDeleteClient(client.id)}
                   style={styles.deleteButton}
                 >
@@ -154,6 +156,7 @@ const styles = {
   detailsBtn:{
     marginLeft:"200px"
   },
+ 
   th: {
     backgroundColor: "#808080",
     color: "white",

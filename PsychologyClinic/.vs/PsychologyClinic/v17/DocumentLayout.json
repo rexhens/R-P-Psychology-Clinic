@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|c:\\users\\user\\onedrive\\desktop\\projects\\csharp projects\\psychologyclinicproject\\psychologyclinic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|c:\\users\\user\\onedrive\\desktop\\projects\\csharp projects\\psychologyclinicproject\\psychologyclinic\\repositories\\fileappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|solutionrelative:repositories\\fileappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +46,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T10:11:08.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ClientsController.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Controllers\\ClientsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClientsController.cs",
@@ -50,12 +67,11 @@
               "RelativeToolTip": "Controllers\\ClientsController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAIA9wCUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T17:05:34.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T17:05:34.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppointmentController.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Controllers\\AppointmentController.cs",
               "RelativeDocumentMoniker": "Controllers\\AppointmentController.cs",
@@ -63,12 +79,11 @@
               "RelativeToolTip": "Controllers\\AppointmentController.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAlwDEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T17:12:08.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T17:12:08.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AppointmentDTO.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Models\\DTO\\AppointmentDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\AppointmentDTO.cs",
@@ -76,12 +91,11 @@
               "RelativeToolTip": "Models\\DTO\\AppointmentDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T17:11:19.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T17:11:19.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Appointment.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Models\\Appointment.cs",
               "RelativeDocumentMoniker": "Models\\Appointment.cs",
@@ -89,25 +103,24 @@
               "RelativeToolTip": "Models\\Appointment.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T16:34:41.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T16:34:41.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FileAppointmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Repositories\\FileAppointmentRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\FileAppointmentRepository.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Repositories\\FileAppointmentRepository.cs",
               "RelativeToolTip": "Repositories\\FileAppointmentRepository.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAIA7wEwAAAA1AAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAUwEwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T16:34:07.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FileClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Repositories\\FileClientRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\FileClientRepository.cs",

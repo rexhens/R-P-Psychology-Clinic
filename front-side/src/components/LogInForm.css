@@ -1,0 +1,14 @@
+input{
+    background-color: white;
+}
+#name, #password {
+    background-color: white;
+    border: 1px solid #6c5c5c;
+    color: black;
+}
+#name:focus{
+        border: 2px solid black;
+}
+#submitBtn{
+    background-color: #6c5c5c;
+}
