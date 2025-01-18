@@ -81,10 +81,23 @@
       </div>
     </div>
     <!-- Right-aligned login button -->
-    <a href="/login" class="login-button">Login</a>
+    <a href="/login" class="login-button" id="logInBtn">Login</a>
   </nav>
   <div id="root"></div>
   <script type="module" src="/src/index.jsx"></script>
+  <script>
+    var apiKey = localStorage.getItem('apiKey');
+      var logInBtn = document.getElementById('logInBtn');
+
+      if (apiKey) {
+        logInBtn.textContent = 'Log Out';
+        logInBtn.href = '/logout'; 
+      } else {
+        
+        logInBtn.textContent = 'Login';
+        logInBtn.href = '/login';
+      }
+  </script>
 </body>
 
 </html>

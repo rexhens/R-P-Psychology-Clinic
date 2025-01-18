@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|c:\\users\\user\\onedrive\\desktop\\projects\\csharp projects\\psychologyclinicproject\\psychologyclinic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|c:\\users\\user\\onedrive\\desktop\\projects\\csharp projects\\psychologyclinicproject\\psychologyclinic\\models\\dto\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|solutionrelative:models\\dto\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|c:\\users\\user\\onedrive\\desktop\\projects\\csharp projects\\psychologyclinicproject\\psychologyclinic\\repositories\\fileappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|solutionrelative:repositories\\fileappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|c:\\users\\user\\onedrive\\desktop\\projects\\csharp projects\\psychologyclinicproject\\psychologyclinic\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|c:\\users\\user\\onedrive\\desktop\\projects\\csharp projects\\psychologyclinicproject\\psychologyclinic\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|solutionrelative:controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|c:\\users\\user\\onedrive\\desktop\\projects\\csharp projects\\psychologyclinicproject\\psychologyclinic\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +23,20 @@
       "RelativeMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|solutionrelative:models\\dto\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|c:\\users\\user\\onedrive\\desktop\\projects\\csharp projects\\psychologyclinicproject\\psychologyclinic\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|solutionrelative:models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|c:\\users\\user\\onedrive\\desktop\\projects\\csharp projects\\psychologyclinicproject\\psychologyclinic\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|solutionrelative:controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|c:\\users\\user\\onedrive\\desktop\\projects\\csharp projects\\psychologyclinicproject\\psychologyclinic\\repositories\\fileappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|solutionrelative:repositories\\fileappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|c:\\users\\user\\onedrive\\desktop\\projects\\csharp projects\\psychologyclinicproject\\psychologyclinic\\repositories\\fileclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|solutionrelative:repositories\\fileclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|c:\\users\\user\\onedrive\\desktop\\projects\\csharp projects\\psychologyclinicproject\\psychologyclinic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|c:\\users\\user\\onedrive\\desktop\\projects\\csharp projects\\psychologyclinicproject\\psychologyclinic\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7DFDE0-B4E4-4E65-B640-924E71D30E6A}|PsychologyClinic.csproj|solutionrelative:models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,61 +49,77 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "Models\\Client.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Models\\Client.cs*",
+              "RelativeToolTip": "Models\\Client.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T13:10:42.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Models\\DTO\\ClientDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\ClientDTO.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Models\\DTO\\ClientDTO.cs",
+              "RelativeToolTip": "Models\\DTO\\ClientDTO.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA1wAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T13:10:14.979Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "DocumentIndex": 2,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Controllers\\ClientsController.cs*",
+              "RelativeToolTip": "Controllers\\ClientsController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAC3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T10:11:08.983Z",
+              "WhenOpened": "2025-01-11T17:05:34.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClientsController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Controllers\\ClientsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClientsController.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Controllers\\ClientsController.cs",
-              "RelativeToolTip": "Controllers\\ClientsController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAIA9wCUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T17:05:34.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AppointmentController.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Controllers\\AppointmentController.cs",
               "RelativeDocumentMoniker": "Controllers\\AppointmentController.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Controllers\\AppointmentController.cs",
               "RelativeToolTip": "Controllers\\AppointmentController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAlwDEAAAAMAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAIAwwCsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T17:12:08.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppointmentDTO.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Models\\DTO\\AppointmentDTO.cs",
-              "RelativeDocumentMoniker": "Models\\DTO\\AppointmentDTO.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Models\\DTO\\AppointmentDTO.cs",
-              "RelativeToolTip": "Models\\DTO\\AppointmentDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T17:11:19.435Z"
+              "WhenOpened": "2025-01-11T17:12:08.895Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "AppointmentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Models\\DTO\\AppointmentDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\AppointmentDTO.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Models\\DTO\\AppointmentDTO.cs*",
+              "RelativeToolTip": "Models\\DTO\\AppointmentDTO.cs*",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T17:11:19.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Appointment.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Models\\Appointment.cs",
               "RelativeDocumentMoniker": "Models\\Appointment.cs",
@@ -107,15 +131,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "FileAppointmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Repositories\\FileAppointmentRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\FileAppointmentRepository.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Repositories\\FileAppointmentRepository.cs",
               "RelativeToolTip": "Repositories\\FileAppointmentRepository.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAUwEwAAAA1AAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAQwEIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T16:34:07.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Projects\\CSharp Projects\\PsychologyClinicProject\\PsychologyClinic\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T10:11:08.983Z",
               "EditorCaption": ""
             },
             {
@@ -128,7 +165,8 @@
               "RelativeToolTip": "Repositories\\FileClientRepository.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAowDAAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T16:09:11.35Z"
+              "WhenOpened": "2025-01-07T16:09:11.35Z",
+              "EditorCaption": ""
             }
           ]
         }

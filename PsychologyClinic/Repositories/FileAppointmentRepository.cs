@@ -63,6 +63,31 @@ namespace PsychologyClinic.Repositories
                 SaveAll(appointments);
             }
         }
+        public void PayTheBill(int id)
+        {
+            var appointments = GetAll(); // Get all appointments
+            var appointment = GetById(id); // Find the appointment by ID
+
+            if (appointment == null)
+            {
+                Console.WriteLine("Appointment not found.");
+                return;  // Exit if appointment doesn't exist
+            }
+
+            // Update the status of the appointment
+            appointment.Status = "Paid";
+
+            // Replacing the old appointment in the list with the updated one
+            var appointmentIndex = appointments.FindIndex(a => a.Id == id);
+            if (appointmentIndex >= 0)
+            {
+                appointments[appointmentIndex] = appointment; // Update the appointment in the list
+            }
+
+            // Save the updated list of appointments
+            SaveAll(appointments);  // Save the updated list
+        }
+
 
         private void SaveAll(List<Appointment> appointments)
         {

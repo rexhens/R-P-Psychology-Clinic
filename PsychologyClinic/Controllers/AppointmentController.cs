@@ -50,7 +50,7 @@ namespace PsychologyClinic.Controllers
             if (clients.Contains(_clientRepository.GetById(appointment.ClientId))){
                 return BadRequest("This client does not exist!");
             }
-            var app = new Appointment { DateReserved = appointment.DateReserved, AppointemtType = appointment.AppointemtType, Amount = appointment.Amount, ClientId = appointment.ClientId, Status = "Unpaid" };
+            var app = new Appointment { DateReserved = appointment.DateReserved, AppointemtType = appointment.AppointmentType, Amount = appointment.Amount, ClientId = appointment.ClientId, Status = "Unpaid" };
             if (!ValidateDateAppointment(app, _repository.GetAll()))
             {
                 return BadRequest("The Hours are not avilable!");
@@ -75,6 +75,24 @@ namespace PsychologyClinic.Controllers
             var apps = _clientRepository.GetAll();
             _repository.Cancel(appointmentId);
             return Ok("Appointment canceled successfully");
+        }
+
+        [HttpPost]
+        [Route("payTheBill")]
+        public IActionResult PayTheBill([FromBody]AppointmentRequest req)
+        {
+            var apiKey = Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+            if (string.IsNullOrEmpty(apiKey) || !IsValidApiKey(apiKey))
+            {
+                return Unauthorized("Invalid API key");
+            }
+            var appointment = _repository.GetById(req.AppointmentId);
+            if(appointment == null)
+            {
+                return BadRequest("This appointment does not exist");
+            }
+            _repository.PayTheBill(req.AppointmentId);
+            return Ok();
         }
         private bool ValidateDateAppointment(Models.Appointment appointment, List<Models.Appointment> appointmentsList)
         {
@@ -127,5 +145,9 @@ namespace PsychologyClinic.Controllers
             return true;
         }
 
+        public class AppointmentRequest
+        {
+            public int AppointmentId { get; set; }
+        }
     }
 }

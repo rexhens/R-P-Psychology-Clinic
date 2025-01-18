@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import Appointments from "./Appointments";
 import AddAppointment from "./AddAppointment";
 import './HomePage.css'
+import { useNavigate } from "react-router-dom";
+import { colors } from "@mui/material";
 
 export default function HomePage() {
   const [clients, setClients] = useState([]);
@@ -9,22 +11,17 @@ export default function HomePage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [searchTerm, setSearchTerm] = useState(""); // New state for search term
-  const [newClient, setNewClient] = useState({
-    name: "",
-    surname: "",
-    firstComplain: "",
-    aads: "",
-  });
 
   useEffect(() => {
     const fetchClients = async () => {
       const apiKey = localStorage.getItem("apiKey");
       if (!apiKey) {
-        alert("Please log in first.");
+        alert('Please log in first')
+        window.location.href= '/login'
         setLoading(false);
         return;
       }
-
+      
       try {
         const response = await fetch("https://localhost:7175/api/clients/GetAll", {
           method: "GET",
@@ -32,7 +29,10 @@ export default function HomePage() {
             Authorization: `Bearer ${apiKey}`,
           },
         });
-
+        if(response.status === 401){
+           window.location.href = "/login"; // Replace '/login' with your login page route
+            return;
+        }
         if (!response.ok) {
           throw new Error("Failed to fetch clients");
         }
@@ -61,13 +61,18 @@ export default function HomePage() {
   const handleSearchChange = (e) => {
     setSearchTerm(e.target.value);
   };
+ const navigate = useNavigate();
 
+  const handleDetailsClick = (client) => {
+    // Navigate to the ClientDetails component and pass the client as state
+    navigate(`/client-details`, { state: { client } });
+  };
 
 
   const handleDeleteClient = async (clientId) => {
     const apiKey = localStorage.getItem("apiKey");
     if (!apiKey) {
-      alert("Please log in first.");
+    window.location.href = '/login'
       return;
     }
 
@@ -94,8 +99,7 @@ export default function HomePage() {
 
   return (
     <div>
-     <a href="/add" id="addAppBtn">Add a new Appointment</a>
-    <Appointments></Appointments>
+    
       <h1>Clients</h1>
 
       {/* Search bar */}
@@ -110,6 +114,7 @@ export default function HomePage() {
       <table style={styles.table}>
         <thead>
           <tr>
+            <th style={styles.th}>Client ID</th>
             <th style={styles.th}>Name</th>
             <th style={styles.th}>Surname</th>
             <th style={styles.th}>First Complaint</th>
@@ -120,6 +125,7 @@ export default function HomePage() {
         <tbody>
           {filteredClients.map((client) => (
             <tr key={client.id}>
+              <td style={styles.td}>{client.brazilianId}</td>
               <td style={styles.td}>{client.name}</td>
               <td style={styles.td}>{client.surname}</td>
               <td style={styles.td}>{client.firstComplain}</td>
@@ -132,8 +138,8 @@ export default function HomePage() {
                 >
                   Delete
                 </button>
-                <button id="detailsBtn">
-                    Details
+                <button id="detailsBtn" onClick={() => handleDetailsClick(client)}>
+                  Details
                 </button>
               </td>
             </tr>
@@ -179,6 +185,7 @@ const styles = {
   border: "1px solid #ddd",
   marginLeft: "auto", // Centers the search bar horizontally
   marginRight: "auto", // Centers the search bar horizontally
+  color: 'black'
 },
 
 };

@@ -40,7 +40,7 @@ function LoginForm() {
       localStorage.setItem('apiKey', apiKey);
 
       console.log('Login successful:', result);
- navigate('/homepage');
+      navigate('/homepage');
     } catch (error) {
       console.error('Error logging in:', error);
       alert('Login failed! Please check your credentials.');

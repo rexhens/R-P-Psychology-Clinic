@@ -48,7 +48,7 @@ namespace PsychologyClinic.Controllers
         [Route("Add")]
         public IActionResult Create(ClientDTO clientDTO)
         {
-            var client = new Client { Name=clientDTO.Name, Surname=clientDTO.Surname, Adress=clientDTO.Adress, FirstComplain=clientDTO.FirstComplain};
+            var client = new Client { Name=clientDTO.Name, Surname=clientDTO.Surname, Adress=clientDTO.Adress, FirstComplain=clientDTO.FirstComplain, BrazilianId=clientDTO.BrazilianId};
             _repository.Add(client);
             return CreatedAtAction(nameof(GetById), new { id = client.Id }, client);
         }

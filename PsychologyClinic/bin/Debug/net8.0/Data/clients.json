@@ -4,20 +4,23 @@
     "Name": "Client1",
     "Surname": "Surname1",
     "Adress": "Adress 1",
-    "FirstComplain": "First compaint"
+    "FirstComplain": "First compaint",
+    "BrazilianId": "12345"
   },
   {
     "Id": 2,
     "Name": "Client2",
     "Surname": "Surname2",
     "Adress": "Adress 2",
-    "FirstComplain": "First compaint"
+    "FirstComplain": "First compaint",
+      "BrazilianId": "12346"
   },
   {
     "Id": 3,
     "Name": "Client3",
     "Surname": "Surname3",
     "Adress": "Adress 3",
-    "FirstComplain": "First compaint"
+    "FirstComplain": "First compaint",
+      "BrazilianId": "12347"
   }
 ]

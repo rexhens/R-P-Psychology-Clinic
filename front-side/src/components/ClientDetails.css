@@ -1,0 +1,61 @@
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Button Styles */
+.detailsBtn {
+    margin-left: 200px;
+}
+
+/* Table Header Styles */
+th {
+    background-color: #808080;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+/* Table Data Cell Styles */
+td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+/* Search Bar Styles */
+.searchBar {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    max-width: 500px;
+    /* Limits the width of the search bar */
+    width: 100%;
+    /* Allows the bar to scale within the maxWidth */
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-left: auto;
+    /* Centers the search bar horizontally */
+    margin-right: auto;
+    /* Centers the search bar horizontally */
+}
+.backBtn{
+    border-color: #808080;
+    border: 15px;
+    margin-top: 30px;
+    color: black;
+    display: block;
+    background-color: #808080;
+    border-radius: 15px;
+    height: 30px;
+    text-align: center;
+}
+.backBtn:hover{
+    color: black;
+    background-color: #ddd;
+}

@@ -7,5 +7,6 @@
         public required string Surname { get; set; }
         public required string Adress { get; set; }
         public required string FirstComplain { get; set; }
+        public string? BrazilianId { get; set; }
     }
 }

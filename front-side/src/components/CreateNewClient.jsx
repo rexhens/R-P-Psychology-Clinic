@@ -1,68 +1,22 @@
 import { useEffect, useState } from "react";
-import './AddAppointment.css'; // Import the custom CSS file for styling
+import './AddAppointment.css'; 
 
-export default function AddAppointment() {
-  const [clients, setClients] = useState([]);
-  const [date, setDate] = useState("");
-  const [time, setTime] = useState("");
-  const [appointmentType, setAppointmentType] = useState("");
-  const [amount, setAmount] = useState("");
-  const [selectedClient, setSelectedClient] = useState(1);
+export default function CreateNewClient() {
+    const [id, setId] = useState("")
+    const [name, setName] = useState("")
+    const [surname, setSurname] = useState("")
+    const [firstComplaint, setFirstComplaint] = useState("")
+    const [adress, setAdress] = useState("")
 
-  // Fetch clients data
-  useEffect(() => {
-    const fetchClients = async () => {
-      const apiKey = localStorage.getItem("apiKey");
-      if (!apiKey) {
-        alert("Please log in first.");
-        window.location.href = '/login'
-        return;
-      }
-
-      try {
-        const response = await fetch("https://localhost:7175/api/clients/GetAll", {
-          method: "GET",
-          headers: {
-            Authorization: `Bearer ${apiKey}`,
-          },
-        });
-        if(response.status === 401){
-           window.location.href = "/login"; // Replace '/login' with your login page route
-            return;
-        }
-        if (!response.ok) {
-          throw new Error("Failed to fetch clients");
-        }
-
-        const data = await response.json();
-        //console.log(data)
-        setClients(data);
-      } catch (error) {
-        console.error(error); // Optionally handle the error
-      }
-    };
-
-    fetchClients();
-  }, []);
 
 const handleSubmit = async (e) => {
   e.preventDefault();
 
-  // Ensure selectedClient is a valid number
-  const clientId = parseInt(selectedClient, 10); // Convert to integer
-
-  if (isNaN(clientId)) {
-    alert("Please select a valid client.");
-    return;
-  }
-
-  const dateTimeString = `${date}T${time}`;
-  const dateReserved = new Date(dateTimeString);
   
-  const appointmentData = {
-    ClientId: clientId,  // Ensure it's a number
-    DateReserved: dateReserved.toISOString(),
-    AppointmentType: appointmentType,
+  const clientData = {
+    BrazilianId: id,  // Ensure it's a number
+    Name: name,
+    Surname: surname,
     Amount: parseFloat(amount), // Ensure Amount is a number
   };
 

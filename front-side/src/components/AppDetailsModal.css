@@ -1,0 +1,39 @@
+.modal-content {
+    background-color: #fff;
+    /* White background */
+    border: 1px solid #dee2e6;
+    /* Light gray border */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    padding: 20px;
+    /* Optional padding */
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header {
+    border-bottom: 1px solid #dee2e6;
+    /* Header bottom border */
+}
+
+.modal-header .btn-close {
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    color: #000;
+    /* Close button color */
+}
+.payBtn{
+    background-color: #6c5c5c;
+        border: #6c5c5c;
+}
+.payBtn:hover{
+    background-color: #b3abab;
+        border: #6c5c5c;
+}
