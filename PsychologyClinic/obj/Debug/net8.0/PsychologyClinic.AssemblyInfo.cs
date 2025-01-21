@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PsychologyClinic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4da40a4fac352ce884ccea23f1077d408622edf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6d4b38c3dd9360c43d93e926f78cb7ff1a3ff47")]
 [assembly: System.Reflection.AssemblyProductAttribute("PsychologyClinic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PsychologyClinic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

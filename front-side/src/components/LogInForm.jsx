@@ -39,10 +39,9 @@ function LoginForm() {
       const apiKey = result.apiKey;
       localStorage.setItem('apiKey', apiKey);
 
-      console.log('Login successful:', result);
+     -
       navigate('/homepage');
     } catch (error) {
-      console.error('Error logging in:', error);
       alert('Login failed! Please check your credentials.');
     }
   };

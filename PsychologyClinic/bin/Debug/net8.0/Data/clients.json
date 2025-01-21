@@ -13,7 +13,7 @@
     "Surname": "Surname2",
     "Adress": "Adress 2",
     "FirstComplain": "First compaint",
-      "BrazilianId": "12346"
+    "BrazilianId": "12346"
   },
   {
     "Id": 3,
@@ -21,6 +21,6 @@
     "Surname": "Surname3",
     "Adress": "Adress 3",
     "FirstComplain": "First compaint",
-      "BrazilianId": "12347"
+    "BrazilianId": "12347"
   }
 ]

@@ -38,7 +38,7 @@ export default function AddAppointment() {
         //console.log(data)
         setClients(data);
       } catch (error) {
-        console.error(error); // Optionally handle the error
+        
       }
     };
 
@@ -66,7 +66,6 @@ const handleSubmit = async (e) => {
     Amount: parseFloat(amount), // Ensure Amount is a number
   };
 
-  console.log("Appointment Data:", appointmentData); // Log data to check
 
   try {
     const apiKey = localStorage.getItem("apiKey");
@@ -80,12 +79,14 @@ const handleSubmit = async (e) => {
     });
 
     if (!response.ok) {
-      alert(response.text)
+      alert("The hours are not available")
     }
-
+    if (response.status === 200){
     alert("Appointment added successfully");
+
+    }
   } catch (error) {
-    console.error(error);
+   
     alert("There was an error while adding the appointment.");
   }
 };

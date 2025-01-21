@@ -17,7 +17,16 @@
     color: white;
   
 }
-#addAppBtn:hover{
+#addAppBtn:hover, #addClientBtn:hover{
     background-color: #989898;
     color: white;
 }
+#addClientBtn{
+    display: block;
+    width: 35%;
+    margin: 0 auto;
+    background-color: #6c5c5c;
+    padding: 11px;
+    border: none;
+}
+

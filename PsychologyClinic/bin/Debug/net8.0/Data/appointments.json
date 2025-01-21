@@ -95,7 +95,7 @@
     "DateReserved": "2025-01-24T11:00:00Z",
     "AppointemtType": "Therapy",
     "Amount": 100,
-    "Status": "Unpaid",
+    "Status": "Paid",
     "Client": null
   },
   {
@@ -140,6 +140,15 @@
     "DateReserved": "2025-02-03T12:00:00Z",
     "AppointemtType": "Therapy",
     "Amount": 200,
+    "Status": "Unpaid",
+    "Client": null
+  },
+  {
+    "Id": 17,
+    "ClientId": 2,
+    "DateReserved": "2025-01-22T11:00:00Z",
+    "AppointemtType": "Therapy",
+    "Amount": 110,
     "Status": "Unpaid",
     "Client": null
   }

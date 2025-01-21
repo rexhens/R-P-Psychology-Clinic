@@ -4,6 +4,7 @@ import AddAppointment from "./AddAppointment";
 import './HomePage.css'
 import { useNavigate } from "react-router-dom";
 import { colors } from "@mui/material";
+import CreateNewClient from "./CreateNewClient";
 
 export default function HomePage() {
   const [clients, setClients] = useState([]);
@@ -69,15 +70,20 @@ export default function HomePage() {
   };
 
 
-  const handleDeleteClient = async (clientId) => {
-    const apiKey = localStorage.getItem("apiKey");
-    if (!apiKey) {
-    window.location.href = '/login'
-      return;
+ const handleDeleteClient = async (id) => {
+    if (!window.confirm("Are you sure you want to delete this client?")) {
+      return; // Exit if the user cancels
     }
 
     try {
-      const response = await fetch(`https://localhost:7175/api/clients/Delete/${clientId}`, {
+      const apiKey = localStorage.getItem("apiKey");
+      if (!apiKey) {
+        alert("Please log in first.");
+        window.location.href = "/login";
+        return;
+      }
+
+      const response = await fetch(`https://localhost:7175/api/clients/delete?id=${id}`, {
         method: "DELETE",
         headers: {
           Authorization: `Bearer ${apiKey}`,
@@ -85,25 +91,29 @@ export default function HomePage() {
       });
 
       if (!response.ok) {
-        throw new Error("Failed to delete client");
+        const errorMessage = await response.text();
+        alert(`Failed to delete client: ${errorMessage}`);
+        return;
       }
 
-      setClients(clients.filter((client) => client.id !== clientId));
+      alert("Client deleted successfully.");
     } catch (error) {
-      setError(error.message);
+      console.error("Error deleting client:", error);
+      alert("There was an error while deleting the client.");
     }
   };
+
 
   if (loading) return <div>Loading clients...</div>;
   if (error) return <div>Error: {error}</div>;
 
   return (
     <div>
-    
       <h1>Clients</h1>
-
-      {/* Search bar */}
-      <input
+<a href="/clients/add" id="addClientBtn" className="btn btn-success mb-4">
+        Add a new Client
+      </a>
+            <input
         type="text"
         placeholder="Search clients..."
         value={searchTerm}

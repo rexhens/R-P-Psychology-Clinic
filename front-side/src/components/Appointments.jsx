@@ -37,7 +37,6 @@ export default function Appointments() {
           throw new Error("Failed to load appointments");
         }
         const data = await response.json();
-        console.log(data);
         setAppointments(data);
       } catch (error) {
         console.log(error);

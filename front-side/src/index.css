@@ -117,3 +117,6 @@ input {
   padding-bottom: 3rem;
   border-radius: 30px;
 }
+a:hover{
+  color: #ffffff;
+}
