@@ -11,6 +11,13 @@ The **Psychology Clinic Management System** is a web-based platform designed to 
 - **Payment Tracking**: Monitor payment statuses and outstanding balances.
 - **User-Friendly Interface**: A simple and intuitive UI for seamless navigation.
 
+## Photos of application
+![Screenshot 2025-02-24 155807](https://github.com/user-attachments/assets/144ba40f-e9f0-4790-927c-1cc53d830d10)
+![Log In Page](https://github.com/user-attachments/assets/d37efd94-a705-42fe-87d7-6cb0a931e462)
+![Appointments Page](https://github.com/user-attachments/assets/814ca23d-665a-4dbe-8245-b18a57cce413)
+![Make a new Appointment Form 2](https://github.com/user-attachments/assets/81fa440d-907c-4f80-8db8-46158b333bd6)
+![Clients Page](https://github.com/user-attachments/assets/e5ba065c-dc82-4377-bfd6-7a7bab36d48f)
+
 ## Installation & Setup
 ### Prerequisites:
 - .NET SDK
@@ -74,5 +81,5 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License.
 
 ## Contact
-For any inquiries, feel free to contact the development team at [your-email@example.com].
+For any inquiries, feel free to contact the development team at rexhens.balla.dev@gmail.com
 
